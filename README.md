@@ -1,6 +1,35 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Description: Todo List Application
+This project is a simple yet functional To-Do List application built with React and Redux. It allows users to manage their tasks efficiently by adding, completing, and deleting to-dos. This project demonstrates fundamental concepts of React for building user interfaces and Redux for managing global application state.
+
+Key Features:
+Add Todos: Users can add new tasks to the list by entering text in the input field and pressing the "Add" button. Each task is stored in the Redux store to maintain a global state.
+
+Mark Todos as Completed: Users can mark tasks as completed by clicking on them. Completed tasks are visually distinguished with a strikethrough style, utilizing Redux actions to toggle the completed state.
+
+Delete Todos: Users can remove tasks from the list, which updates the state accordingly using Redux actions and reducers.
+
+Redux Integration: The application uses Redux to manage the global state, ensuring a predictable and centralized state management approach. Redux Toolkit is used for efficient state configuration and management, leveraging features like createSlice for defining reducers and actions.
+
+Technical Stack:
+React: Utilized for building the user interface components and managing the component lifecycle.
+
+Redux: Employed for state management, providing a single source of truth and enabling easy sharing of state across components.
+
+Redux Toolkit: Used to simplify Redux configuration and reduce boilerplate code, enhancing maintainability and scalability of the application.
+
+CSS: Custom styling is applied to enhance the user interface, providing a clean and user-friendly design.
+
+Project Structure:
+Components: The application is divided into reusable components (AddTodo, TodoItem, and TodoList) to maintain a clean and organized codebase.
+
+Redux Store: The store is configured using configureStore from Redux Toolkit, combining reducers and setting up middleware for efficient state management.
+
+This project serves as a practical example of using React and Redux together to build a dynamic, state-driven application, showcasing modern best practices and design patterns in front-end development.
+
+
 
 ## Available Scripts
 
